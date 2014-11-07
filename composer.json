@@ -1,0 +1,27 @@
+{
+    "name": "2upmedia/hooky-demos",
+    "description": "Hooky demos",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Jorge Colon",
+            "email": "jorge@2upmedia.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "../hooky"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "2upmedia/hooky": "dev-master",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "_2UpMedia\\HookyDemo\\": [""]
+        }
+    }
+}
